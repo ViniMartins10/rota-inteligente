@@ -65,3 +65,17 @@ Grafo da cidade (nós = locais; arestas = ruas com peso de distância/tempo). Cl
 
 ## Licença
 MIT
+
+
+## 📊 Resultados
+
+| Métrica | Média de melhoria |
+|----------|------------------|
+| Distância total | -4,76% |
+| Tempo total | -3,56% |
+| Custo de combustível | -4,76% |
+
+**Imagens:**
+![Diagrama do Grafo](outputs/diagrama_grafo.png)
+![Rota Cluster 0](outputs/rota_cluster_0_after.png)
+![Rota Cluster 1](outputs/rota_cluster_1_after.png)
