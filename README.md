@@ -79,3 +79,9 @@ MIT
 ![Diagrama do Grafo](outputs/diagrama_grafo.png)
 ![Rota Cluster 0](outputs/rota_cluster_0_after.png)
 ![Rota Cluster 1](outputs/rota_cluster_1_after.png)
+
+
+
+Link do vídeo explicativo youtube: https://youtu.be/DqwYrRzc9sw
+![Rota Cluster 0](outputs/rota_cluster_0_after.png)
+![Rota Cluster 1](outputs/rota_cluster_1_after.png)
