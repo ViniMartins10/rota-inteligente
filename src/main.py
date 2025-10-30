@@ -80,7 +80,9 @@ def run(k_drivers: int, base_path: str = ".", weight: str = "time_h", use_2opt: 
     out = pd.DataFrame(results)
     out.to_csv(base / "outputs" / "resumo_rotas.csv", index=False)
     comp = pd.DataFrame(comp_rows)
-    comp.to_csv(base / "outputs" / "rotas_comparativo.csv", index=False)
+    # Gera versão compatível com Excel (separador ;)
+    comp.to_csv(base / "outputs" / "rotas_comparativo.csv", index=False, sep=';', decimal=',')
+
 
     print("\n=== COMPARATIVO FINAL ===")
     if not comp.empty:
